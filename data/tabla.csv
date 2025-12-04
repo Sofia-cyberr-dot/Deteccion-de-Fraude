@@ -1,0 +1,21 @@
+transaccion_id,monto,ciudad,metodo,pais,horario,cliente_antiguedad_meses,score_riesgo,es_fraude
+1,1200.50,Buenos Aires,tarjeta_credito,AR,23:10,14,0.92,1
+2,45.20,Córdoba,tarjeta_debito,AR,14:32,36,0.11,0
+3,7800.00,Madrid,transferencia,ES,03:55,5,0.88,1
+4,150.00,Rosario,tarjeta_credito,AR,09:10,60,0.07,0
+5,3200.75,Miami,tarjeta_credito,US,21:40,8,0.81,1
+6,90.10,La Plata,tarjeta_debito,AR,12:15,24,0.12,0
+7,50000.00,Londres,transferencia,UK,02:14,3,0.97,1
+8,210.00,Santiago,tarjeta_credito,CL,17:20,48,0.05,0
+9,1300.90,Bogotá,transferencia,CO,22:50,10,0.79,1
+10,33.40,Mendoza,tarjeta_debito,AR,13:05,80,0.04,0
+11,7600.00,Barcelona,transferencia,ES,01:30,6,0.89,1
+12,67.00,San Juan,tarjeta_debito,AR,18:25,20,0.09,0
+13,42000.00,Paris,transferencia,FR,04:05,2,0.96,1
+14,210.50,Salta,tarjeta_credito,AR,11:42,52,0.06,0
+15,9800.00,New York,tarjeta_credito,US,00:48,4,0.93,1
+16,18.25,Neuquén,tarjeta_debito,AR,15:10,70,0.03,0
+17,2600.40,México DF,transferencia,MX,23:55,12,0.77,1
+18,80.00,Tucumán,tarjeta_debito,AR,10:20,40,0.10,0
+19,30000.00,Berlín,transferencia,DE,02:50,1,0.98,1
+20,110.00,Córdoba,tarjeta_credito,AR,16:18,55,0.05,0
