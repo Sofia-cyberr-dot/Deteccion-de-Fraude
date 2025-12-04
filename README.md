@@ -76,3 +76,5 @@ VS Code
 Git
 GitHub
 Trello (metodología ágil)
+
+![Tabla de promedios](./img/tabla_promedios.png)
