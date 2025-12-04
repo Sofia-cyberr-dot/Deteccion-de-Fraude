@@ -78,3 +78,60 @@ GitHub
 Trello (metodología ágil)
 
 ![Tabla de promedios](./img/tabla_promedios.png)
+
+
+
+# Ejecución y Desarrollo (Flujo de Trabajo Detallado)
+
+Esta sección describe el proceso de trabajo realizado en cada etapa, cumpliendo con los criterios de Ejecución y Herramientas.
+
+6.1. Preprocesamiento de Datos (Sprint 2)
+Carga y Limpieza: Se cargó el archivo fraude.csv. Se verificaron valores nulos y tipos de datos.
+
+Análisis Exploratorio de Datos (EDA): Se analizaron las distribuciones de monto, hora y la proporción de transacciones fraudulentas vs. legítimas (se encontró un desbalance de clases).
+
+Ingeniería de Características: Se aplicó One-Hot Encoding a las variables categóricas (pais, tipo_transaccion, dispositivo). Se normalizó/escaló la variable monto.
+
+6.2. Entrenamiento y Selección del Modelo (Sprint 3)
+División Train/Test: Los datos se dividieron en conjuntos de entrenamiento y prueba (e.g., 70/30).
+
+Manejo del Desbalance: Dada la baja proporción de fraudes, se aplicó una técnica de sobremuestreo (e.g., SMOTE) o se ajustó la ponderación de clases (class weights).
+Pruebas Iniciales: Se entrenaron y compararon la Regresión Logística y los Árboles de Decisión.
+Modelo Final: Se seleccionó Random Forest por su robustez y mejor rendimiento en las métricas de Recall y F1-Score.
+
+
+
+
+#  Reproducción del Proyecto
+Para replicar este proyecto en tu entorno local, sigue los siguientes pasos:
+
+8.1. Estructura del Repositorio
+
+![estructura repositorio](./img/pi.png)
+
+
+8.2. Instalación de Dependencias
+Clona el repositorio:
+
+Bash
+![clona el repositorio](./img/pu.png)
+
+
+Instala las librerías necesarias:
+
+Bash
+
+pip install -r requirements.txt
+Archivo requirements.txt (Ejemplo de contenido):
+
+![librerias](./img/pe.png)
+
+8.3. Ejecución
+Abre el entorno Jupyter/VS Code.
+
+Ejecuta secuencialmente los notebooks ubicados en /notebooks para ver el flujo de trabajo completo, desde la carga de datos hasta la evaluación final del modelo.
+
+#  9. Conclusiones y Aprendizajes (Comentarios Finales)
+
+
+A lo largo del desarrollo de este proyecto, se fortalecieron significativamente los aprendizajes técnicos, adquiriendo experiencia práctica en el manejo de librerías de Python, análisis de datos y desarrollo de modelos de detección de fraude. Además, se potenciaron las habilidades profesionales, tales como la organización del trabajo, la resolución de problemas y la capacidad de documentar y presentar resultados de manera clara. Finalmente, se identificaron mejoras futuras, como optimizar el rendimiento de los modelos, explorar nuevas técnicas de análisis y ampliar la cobertura de datos para obtener resultados más precisos y robustos. Este proyecto no solo consolidó conocimientos adquiridos, sino que también sentó las bases para continuar creciendo y perfeccionando las competencias tanto técnicas como profesionales.
